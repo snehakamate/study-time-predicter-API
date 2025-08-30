@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: study-time-api
+    env: docker
+    plan: free
+    buildCommand: ""
+    startCommand: ""
+    healthCheckPath: /health
+    envVars:
+      - key: ENVIRONMENT
+        value: production
+      - key: LOG_LEVEL
+        value: info

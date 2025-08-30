@@ -1,0 +1,202 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# Scrapy stuff:
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+target/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# celery beat schedule file
+celerybeat-schedule
+
+# SageMath parsed files
+*.sage.py
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# ========================================
+# RENDER DEPLOYMENT - ESSENTIAL FILES ONLY
+# ========================================
+
+# Keep these files for Render deployment:
+# ✅ main.py - Your FastAPI application
+# ✅ requirements.txt - Dependencies
+# ✅ Dockerfile - Container configuration
+# ✅ render.yaml - Render configuration
+# ✅ study_time_model.pkl - Your trained model
+# ✅ study_api_client.py - Client library
+# ✅ README.md - Documentation
+# ✅ DEPLOYMENT.md - Deployment guide
+
+# Exclude these files to keep repository clean:
+# ❌ __pycache__/ - Python cache files
+# ❌ .env - Environment variables (use Render env vars instead)
+# ❌ *.log - Log files
+# ❌ .git/ - Git metadata (handled by Git)
+# ❌ IDE files - Editor-specific files
+# ❌ OS files - System files
+
+# Additional exclusions for clean deployment:
+*.tmp
+*.temp
+*.bak
+*.backup
+*.old
+*.orig
+
+# Test files (optional - keep if you want automated testing)
+# test_*.py
+# *_test.py
+
+# Documentation build files
+docs/
+site/
+
+# Local development files
+local_*
+dev_*
+debug_*
+
+# Temporary files
+temp/
+tmp/
+.tmp/
+
+# Backup files
+backup/
+*.backup
+
+# Log files
+logs/
+*.log
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Cache directories
+.cache/
+cache/
+
+# Node modules (if any)
+node_modules/
+
+# Package lock files (if any)
+package-lock.json
+yarn.lock
+
+# ========================================
+# ESSENTIAL FILES TO KEEP FOR RENDER:
+# ========================================
+# main.py
+# requirements.txt
+# Dockerfile
+# render.yaml
+# study_time_model.pkl
+# study_api_client.py
+# README.md
+# DEPLOYMENT.md
+# RENDER_DEPLOYMENT_GUIDE.md
+# .github/workflows/test.yml (if you want CI/CD)
